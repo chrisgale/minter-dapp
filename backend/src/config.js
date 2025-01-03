@@ -7,7 +7,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "etheskies.xyz";
+const namePrefix = "btcberners.app";
 const description = "This is a crypto store of value";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
@@ -33,7 +33,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://etheskies.xyz", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://btcberners.app", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -49,7 +49,7 @@ const CONTRACT_SYMBOL = 'CP';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = 'YOUR WALLET ADDRESS HERE';
 const TREASURY_ADDRESS = 'YOUR WALLET ADDRESS HERE';
-const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const MAX_SUPPLY = 1461; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.01; // Minting price per NFT. Goerli = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
